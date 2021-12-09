@@ -55,7 +55,7 @@ function MyEvery(array){
     let flag = false
     for(let element of array){
       if(element > 3){
-        flage = true
+        flag = true
       }
     }
     return flag
