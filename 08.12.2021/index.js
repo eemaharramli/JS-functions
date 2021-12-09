@@ -70,6 +70,19 @@ const MyFilter = array => {
 }
 // MyFilter(array)
 
+//elem.length > 5
 
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+function MyFilterMethod(array){
+	let result = [];
+  for(let element of array){
+  if(element.length > 5){
+  	result.push(element)
+  	}
+  }
+  return result
+}
+console.log(MyFilter(words))
 
 
